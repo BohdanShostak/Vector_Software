@@ -84,7 +84,7 @@ public class Main {
 
         System.out.println("_____Task_4_____");
         Task4 task4 = new Task4();
-
+        task4.sortedShapesExample();
     }
 
 }

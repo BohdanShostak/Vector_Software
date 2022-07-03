@@ -1,5 +1,9 @@
 package shapes;
 
 public abstract class Shape {
-    public abstract double area();
+
+    public Shape() {
+    }
+
+    abstract double calcArea();
 }

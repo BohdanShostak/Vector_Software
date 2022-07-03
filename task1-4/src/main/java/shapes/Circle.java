@@ -1,22 +1,14 @@
 package shapes;
 
-public class Circle {
+public class Circle extends Shape {
+    int radius;
 
-    private int radius;
-
-    public Circle(int side) {
-        this.radius = side;
-    }
-
-    public int getRadius() {
-        return radius;
-    }
-
-    public void setRadius(int radius) {
+    public Circle(int radius) {
         this.radius = radius;
     }
 
-    public double area(int radius) {
+    @Override
+    double calcArea() {
         return Math.PI * radius * radius;
     }
 
