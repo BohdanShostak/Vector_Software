@@ -14,6 +14,7 @@ public class Main {
         String encodedText2_4 = "SAOXMMEPEEL";
         String encodedText2_5 = "SPOMLMAEEXE";
         Task1 task1 = new Task1();
+
         System.out.println("encoding example: ");
         System.out.println(task1.encode(decodedText, 3) + " - current result with 3 rails");
         System.out.println(encodedText + " - expected result with 3 rails");
